@@ -2,8 +2,7 @@ import arcade
 import enum
 import random
 import math
-import numpy as np
-from collections import namedtuple
+
 
 
 
@@ -24,8 +23,6 @@ class Direction(enum.Enum):
     Right = 4
 
 
-Snake_x = 0
-Snake_y = 0
 
 class Snake():
     def __init__(self, width, height):
